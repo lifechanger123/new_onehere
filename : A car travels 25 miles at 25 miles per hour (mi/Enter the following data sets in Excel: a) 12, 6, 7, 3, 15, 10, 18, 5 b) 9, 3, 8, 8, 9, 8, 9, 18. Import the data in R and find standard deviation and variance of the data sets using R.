@@ -8,15 +8,3 @@ sd(input$X2)
 print("Variance of X1 and X2 are : ")
 var(input$X1)
 var(input$X2)
-Output:
-[1] "Standard Deviaton of X1 and X2 are : "
-> sd(input$X1)
-[1] 5.209881
-> sd(input$X2)
-[1] 4.140393
-> print("Variance of X1 and X2 are : ")
-[1] "Variance of X1 and X2 are : "
-> var(input$X1)
-[1] 27.14286
-> var(input$X2)
-[1] 17.14286
