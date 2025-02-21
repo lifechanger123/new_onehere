@@ -1,0 +1,27 @@
+a <- matrix(c(2,4,3,1,5,7,6,8,9),ncol=3,nrow = 3)
+b <- matrix(c(9,8,7,6,5,4,3,2,1),ncol=3,nrow=3)
+print(a)
+print(b)
+
+print("Addition of A and B")
+print(a+b)
+
+print("Multiplication of A and B")
+print(a%*%b)
+
+print("Inverse of A")
+if(det(a) !=0){
+  print(solve(a))
+}else{
+  print("Inverse of A does not Exist")
+}
+
+print("Inverse of B")
+if(det(b) !=0){
+  print(solve(b))
+}else{
+  print("Inverse of B does not Exist")
+}
+
+print("Transpose of B ")
+print(t(b))
